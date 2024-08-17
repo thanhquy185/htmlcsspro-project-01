@@ -63,14 +63,6 @@ chiều rộng nhỏ nhất vẫn là 98px*/
   background-color: #e6f0ff;
   padding-top: 26px;
 }
-.hero-wrap {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #e6f0ff;
-  height: calc(100vh - 90px);
-}
 .navbar {
   display: flex;
   align-items: center;
@@ -114,8 +106,13 @@ chiều rộng nhỏ nhất vẫn là 98px*/
 }
 
 /* <===== Hero =====> */
-.hero {
-  margin-top: 40px;
+.hero-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e6f0ff;
+  height: calc(100vh - 90px);
 }
 .hero .info {
   width: 51%;
