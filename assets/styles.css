@@ -1,5 +1,5 @@
 * {
-  /*Dam bao kich thuoc cua phan tu phu thuoc vao 2 thuoc tinh width va height*/
+  /* Kích thước của một phần tử là height và width */
   box-sizing: border-box;
 }
 body {
@@ -10,8 +10,13 @@ body {
   --primary-color: #0f1b4c;
 }
 html {
-  /*Dam bao kich co chu se luon hien thi co ti le voi nhau*/
+  /* Đảm bảo kích cỡ chứ hiển thị sẽ luôn tỉ lệ với nhau */
   font-size: 62.5%;
+}
+html,
+body {
+  /* Đảm bảo tác vụ tự kéo trang sẽ mượt mà */
+  scroll-behavior: smooth;
 }
 
 /* <===== Common (thành phần dùng chung) =====> */
@@ -54,6 +59,7 @@ chiều rộng nhỏ nhất vẫn là 98px*/
 .fixed-header {
   position: sticky;
   top: -26px;
+  z-index: 1;
   background-color: #e6f0ff;
   padding-top: 26px;
 }
@@ -71,6 +77,12 @@ chiều rộng nhỏ nhất vẫn là 98px*/
   /* margin-top: 38px; Xảy ra hiện tượng margin-collapse */
   /* padding-top: 38px; */
   padding: 12px 0px;
+}
+.navbar .return-home {
+  padding: 8px 8px 4px;
+}
+.navbar .return-home:hover {
+  opacity: 0.7;
 }
 .navbar .items {
   display: flex;

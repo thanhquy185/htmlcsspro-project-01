@@ -29,20 +29,22 @@
   </head>
   <body>
     <!-- Main -->
-    <main>
-      <header class="fixed-header ">
+    <main id="home">
+      <header class="fixed-header">
         <div class="content">
           <!-- Như thẻ div nhưng nó mang ngữ nghĩa, làm phần navbar -->
           <nav class="navbar">
             <!-- Logo -->
-            <img src="./assets/images/logo.svg" alt="Besnik." />
+            <a href="/" class="return-home"
+              ><img src="./assets/images/logo.svg" alt="Besnik."
+            /></a>
             <!-- Navigation -->
             <ul class="items">
-              <li class="item"><a href="#!">Home</a></li>
-              <li class="item"><a href="#!">Features</a></li>
-              <li class="item"><a href="#!">Services</a></li>
-              <li class="item"><a href="#!">Resources</a></li>
-              <li class="item"><a href="#!">Contact</a></li>
+              <li class="item"><a href="#home">Home</a></li>
+              <li class="item"><a href="#services">Services</a></li>
+              <li class="item"><a href="#features">Features</a></li>
+              <li class="item"><a href="#resources">Resources</a></li>
+              <li class="item"><a href="#contact">Contact</a></li>
             </ul>
             <!-- Action -->
             <div class="actions">
@@ -76,7 +78,7 @@
         </div>
       </div>
       <!-- Clients -->
-      <div class="clients">
+      <div class="clients" id="services">
         <div class="content">
           <div class="row">
             <!-- Logo -->
@@ -179,7 +181,7 @@
         </div>
       </div>
       <!-- Feature -->
-      <div class="featured">
+      <div class="featured" id="features">
         <div class="content">
           <!-- Header Featured -->
           <header>
@@ -324,7 +326,7 @@
         </div>
       </div>
       <!-- Stats -->
-      <div class="stats">
+      <div class="stats" id="resources">
         <div class="content">
           <div class="row">
             <div class="img-block">
@@ -471,7 +473,7 @@
         </div>
       </div>
       <!-- Subscription -->
-      <div class="subscription">
+      <div class="subscription" id="contact">
         <div class="content">
           <div class="body">
             <div class="info">
