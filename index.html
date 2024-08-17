@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F8 PROJECT 1</title>
+
+    <!-- Reset -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <!-- Fonts -->
+      <!-- Poppin Font -->
+    <!-- Bị lỗi ở tiêu đề chính thành ra phải chuyển sang font Poppins không Việt hoá-->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+      <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <!-- Main -->
+    <main>
+      <!-- Header -->
+      <header class="header">
+        <div class="content">
+          <!-- Như thẻ div nhưng nó mang ngữ nghĩa, làm phần navbar -->
+          <nav class="navbar">
+            <!-- Logo -->
+            <img src="./assets/images/logo.svg" alt="Besnik." />
+            <!-- Navigation -->
+            <ul class="items">
+              <li class="item"><a href="#!">Home</a></li>
+              <li class="item"><a href="#!">Features</a></li>
+              <li class="item"><a href="#!">Services</a></li>
+              <li class="item"><a href="#!">Resources</a></li>
+              <li class="item"><a href="#!">Contact</a></li>
+            </ul>
+            <!-- Action -->
+            <div class="actions">
+              <a href="#!" class="action-link">Sign in</a>
+              <a href="#!" class="btn action-btn">Sign up</a>
+            </div>
+          </nav>
+          <div class="hero">
+            <!-- Hero-Title -->
+            <div class="info">
+              <p class="sub-title">Welcome to Besnik Agency</p>
+              <h1 class="title">Discover a place you'll love to live.</h1>
+              <p class="desc">
+                Get the best real estate deals first, before they hit the mass
+                market! HOT FORECLOSURE DEALS with one simple search.
+              </p>
+              <a href="#!" class="cta-hero btn">More About Us</a>
+              <!-- Hero-Image -->
+              <img
+                src="./assets/images/house_illustration.svg"
+                alt="Discover a place you'll love to live."
+                class="hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Clients -->
+      <div class="clients">
+        <div class="content">
+          <div class="row">
+            <!-- Logo -->
+            <img src="./assets/images/logo.svg" alt="Besnik." />
+            <!-- Stars -->
+            <span class="stars row-right">
+              <img src="./assets/images/Star.svg" alt="Star" />
+            </span>
+          </div>
+          <div class="row">
+            <p class="desc">More than 45,000+ companies trust besnik</p>
+            <p class="desc">5 Star Ratings (2k+ Review)</p>
+          </div>
+          <div class="images">
+            <img src="./assets/images/image-1.svg" alt="MeUndies" />
+            <img src="./assets/images/image-2.svg" alt="slack" />
+            <img src="./assets/images/image-3.svg" alt="amazon" />
+            <img src="./assets/images/image-4.svg" alt="WooCommerce" />
+            <img src="./assets/images/image-5.svg" alt="sitepoint" />
+          </div>
+        </div>
+      </div>
+      <!-- Guides -->
+      <div class="guides">
+        <!-- Content Guides -->
+        <div class="content">
+          <h2 class="sub-title">How its works?</h2>
+          <p class="desc">
+            Everything you need to know when you're looking to buy, rent, or
+            sell - all in one place.
+          </p>
+        </div>
+        <!-- List item Guides -->
+        <div class="items-guides">
+          <div class="item">
+            <img
+              src="./assets/images/icon-1.svg"
+              alt="Buyer"
+              class="icon-item"
+            />
+            <h3 class="title-item">Buyer Guides</h3>
+            <a href="#!" class="link-item">
+              How to buy
+              <img
+                src="./assets/images/Vector.svg"
+                alt="arrow-right"
+                class="icon-link"
+              />
+            </a>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/icon-2.svg"
+              alt="Renter"
+              class="icon-item"
+            />
+            <h3 class="title-item">Renter Guides</h3>
+            <a href="#!" class="link-item">
+              How to rent
+              <img
+                src="./assets/images/Vector.svg"
+                alt="arrow-right"
+                class="icon-link"
+              />
+            </a>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/icon-3.svg"
+              alt="Seller"
+              class="icon-item"
+            />
+            <h3 class="title-item">Seller Guides</h3>
+            <a href="#!" class="link-item">
+              How to sell
+              <img
+                src="./assets/images/Vector.svg"
+                alt="arrow-right"
+                class="icon-link-"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Button Guides -->
+        <div class="cta-guides">
+          <a href="#!" class="btn">Sell Full Guidelines</a>
+        </div>
+      </div>
+      <!-- Feature -->
+      <div class="featured">
+        <div class="content">
+          <!-- Header Featured -->
+          <header>
+            <h2 class="title">Featured Properties</h2>
+            <div class="row">
+              <p class="desc">
+                Everything you need to know when you're looking
+              </p>
+              <a href="#!" class="link">
+                View All Properties
+                <img
+                  src="./assets/images/Vector.svg"
+                  alt="arrow-right"
+                  class="arrow-right"
+                />
+              </a>
+            </div>
+          </header>
+          <!-- List item Featured -->
+          <div class="items">
+            <!-- Item 1 -->
+            <div class="item">
+              <div class="header-item">
+                <a href="#!">
+                  <img
+                    src="./assets/images/image-featured_1.jpg"
+                    alt="Nikko Apartments"
+                    class="small-image"
+                  />
+                </a>
+                <div class="body-item">
+                  <h3 class="title line-clamp">
+                    <a href="#!">Nikko Apartments</a>
+                  </h3>
+                  <p class="desc line-clamp">
+                    8502 Preston Rd. Inglewood, Maine 98280
+                  </p>
+                  <div class="icons">
+                    <img
+                      src="./assets/images/icon-featured_1.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">5 Beds</span>
+                    <img
+                      src="./assets/images/icon-featured_2.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2 both</span>
+                    <img
+                      src="./assets/images/icon-featured_3.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2000 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="item">
+              <div class="header-item">
+                <a href="#!">
+                  <img
+                    src="./assets/images/image-featured_2.jpg"
+                    alt="CouCou Homestead"
+                    class="small-image"
+                  />
+                </a>
+                <div class="body-item">
+                  <h3 class="title line-clamp">
+                    <a href="#!">CouCou Homestead</a>
+                  </h3>
+                  <p class="desc line-clamp">
+                    8502 Preston Rd. Inglewood, Maine 98280
+                  </p>
+                  <div class="icons">
+                    <img
+                      src="./assets/images/icon-featured_1.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">5 Beds</span>
+                    <img
+                      src="./assets/images/icon-featured_2.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2 both</span>
+                    <img
+                      src="./assets/images/icon-featured_3.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2000 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item">
+              <div class="header-item">
+                <a href="#!">
+                  <img
+                    src="./assets/images/image-featured_3.jpg"
+                    alt="Lavis 18 Residence"
+                    class="small-image"
+                  />
+                </a>
+                <div class="body-item">
+                  <h3 class="title line-clamp">
+                    <a href="#!">Lavis 18 Residence</a>
+                  </h3>
+                  <p class="desc line-clamp">
+                    8502 Preston Rd. Inglewood, Maine 98280
+                  </p>
+                  <div class="icons">
+                    <img
+                      src="./assets/images/icon-featured_1.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">5 Beds</span>
+                    <img
+                      src="./assets/images/icon-featured_2.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2 both</span>
+                    <img
+                      src="./assets/images/icon-featured_3.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                    <span class="label-icon">2000 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Stats -->
+      <div class="stats">
+        <div class="content">
+          <div class="row">
+            <div class="img-block">
+              <img
+                src="./assets/images/image-block.jpg"
+                alt="image-block"
+                class="big"
+              />
+              <div class="trend">
+                <div class="row">
+                  <strong class="value">40,000+</strong>
+                  <img
+                    src="./assets/images/icon-trend.svg"
+                    alt="grow-up-arrow"
+                    class="icon"
+                  />
+                </div>
+                <p class="desc">
+                  By avarage for 2 bedroom apments in San Francisco, CA
+                </p>
+                <div class="separate"></div>
+                <div class="avatar-block">
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-1.jpg"
+                      alt="avt-1"
+                      class="avatar"
+                    />
+                    <div class="avatar" style="--bg-color: red">T</div>
+                  </div>
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-3.jpg"
+                      alt="avt-3"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-4.jpg"
+                      alt="avt-4"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-5.jpg"
+                      alt="avt-5"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-6.jpg"
+                      alt="avt-5"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-7.jpg"
+                      alt="avt-7"
+                      class="avatar"
+                    />
+                    <div class="avatar" style="--bg-color: brown">T</div>
+                    <img
+                      src="./assets/images/avatar-9.jpg"
+                      alt="avt-9"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-10.jpg"
+                      alt="avt-10"
+                      class="avatar"
+                    />
+                    <div class="avatar" style="--bg-color: green">X</div>
+                    <img
+                      src="./assets/images/avatar-12.jpg"
+                      alt="avt-12"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-13.jpg"
+                      alt="avt-13"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="avatar-group">
+                    <div class="avatar my-avatar">Q</div>
+                    <img
+                      src="./assets/images/avatar-15.jpg"
+                      alt="avt-15"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-16.jpg"
+                      alt="avt-16"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-17.jpg"
+                      alt="avt-17"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="avatar-group">
+                    <img
+                      src="./assets/images/avatar-18.jpg"
+                      alt="avt-18"
+                      class="avatar"
+                    />
+                    <img
+                      src="./assets/images/avatar-19.jpg"
+                      alt="avt-19"
+                      class="avatar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info">
+              <h2 class="sub-title">You’ve found a neighborhood you love.</h2>
+              <p class="desc">
+                When you own a home, you’re committing to living in one location
+                for a while. In a recent Trulia survey, we found that five out
+                of six respondents said finding the right neighborhood
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="quatitys">
+              <div class="item-quatity">
+                <strong class="">2,500</strong>
+                <p class="desc">Homes For Sale</p>
+              </div>
+              <div class="item-quatity">
+                <strong class="">5,000+</strong>
+                <p class="desc">Homes Recently Sold</p>
+              </div>
+              <div class="item-quatity">
+                <strong class="">170+</strong>
+                <p class="desc">Price Reduced</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Subscription -->
+      <div class="subscription">
+        <div class="content">
+          <div class="body">
+            <div class="info">
+              <h2 class="sub-title line-clamp">Subscribe to our Newsletter!</h2>
+              <p class="desc line-clamp" style="--line-clamp: 3">
+                Subscribe to our newsletter and stay updated.
+              </p>
+              <a href="" class="btn">Subscribe</a>
+            </div>
+            <img src="./assets/images/mobile.svg" alt="mobile" class="mobile" />
+            <div class="table"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="content">
+          <div class="row">
+            <div class="column">
+              <h3 class="sub-title">Product</h3>
+              <ul class="items">
+                <li class="item"><a href="#!" class="link">Listing</a></li>
+                <li class="item"><a href="#!" class="link">Property</a></li>
+                <li class="item"><a href="#!" class="link">Agents</a></li>
+                <li class="item"><a href="#!" class="link">Blog</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3 class="sub-title">Resources</h3>
+              <ul class="items">
+                <li class="item"><a href="#!" class="link">Our Homes</a></li>
+                <li class="item"><a href="#!" class="link">Member Stories</a></li>
+                <li class="item"><a href="#!" class="link">Video</a></li>
+                <li class="item"><a href="#!" class="link">Free trial</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3 class="sub-title">Company</h3>
+              <ul class="items">
+                <li class="item"><a href="#!" class="link">Patnerships</a></li>
+                <li class="item"><a href="#!" class="link">Terms of use</a></li>
+                <li class="item"><a href="#!" class="link">Privacy</a></li>
+                <li class="item"><a href="#!" class="link">Sitemap</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3 class="sub-title">Get in touch</h3>
+              <p class="desc">
+                You’ll find your next home, in any style you prefer.
+              </p>
+              <img
+                src="./assets/images/icon-footer.svg"
+                alt="social"
+                class="social"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <img src="./assets/images/logo.svg" alt="Besnik." />
+            <p class="copy-right">
+              Copyright 2020.com, All rights reserved.
+            </p>
+          </div>
+        </div>
+      </fo>
+    </main>
+  </body>
+</html>
