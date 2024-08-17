@@ -8,7 +8,7 @@
     <!-- Reset -->
     <link rel="stylesheet" href="./assets/reset.css" />
     <!-- Fonts -->
-      <!-- Poppin Font -->
+    <!-- Poppin Font -->
     <!-- Bị lỗi ở tiêu đề chính thành ra phải chuyển sang font Poppins không Việt hoá-->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,18 +17,20 @@
       rel="stylesheet"
     /> -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
-      <!-- Lato Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
     <!-- Main -->
     <main>
-      <!-- Header -->
-      <header class="header">
+      <header class="fixed-header ">
         <div class="content">
           <!-- Như thẻ div nhưng nó mang ngữ nghĩa, làm phần navbar -->
           <nav class="navbar">
@@ -48,6 +50,11 @@
               <a href="#!" class="btn action-btn">Sign up</a>
             </div>
           </nav>
+        </div>
+      </header>
+      <!-- Hero -->
+      <div class="hero-wrap">
+        <div class="content">
           <div class="hero">
             <!-- Hero-Title -->
             <div class="info">
@@ -67,7 +74,7 @@
             </div>
           </div>
         </div>
-      </header>
+      </div>
       <!-- Clients -->
       <div class="clients">
         <div class="content">
@@ -94,7 +101,10 @@
               <img src="./assets/images/image-clients-3.svg" alt="amazon" />
             </a>
             <a href="#!" class="click">
-              <img src="./assets/images/image-clients-4.svg" alt="WooCommerce" />
+              <img
+                src="./assets/images/image-clients-4.svg"
+                alt="WooCommerce"
+              />
             </a>
             <a href="#!" class="click">
               <img src="./assets/images/image-clients-5.svg" alt="sitepoint" />
@@ -493,7 +503,9 @@
               <h3 class="sub-title">Resources</h3>
               <ul class="items">
                 <li class="item"><a href="#!" class="link">Our Homes</a></li>
-                <li class="item"><a href="#!" class="link">Member Stories</a></li>
+                <li class="item">
+                  <a href="#!" class="link">Member Stories</a>
+                </li>
                 <li class="item"><a href="#!" class="link">Video</a></li>
                 <li class="item"><a href="#!" class="link">Free trial</a></li>
               </ul>
@@ -521,12 +533,10 @@
           </div>
           <div class="row">
             <img src="./assets/images/logo.svg" alt="Besnik." />
-            <p class="copy-right">
-              Copyright 2020.com, All rights reserved.
-            </p>
+            <p class="copy-right">Copyright 2020.com, All rights reserved.</p>
           </div>
         </div>
-      </fo>
+      </footer>
     </main>
   </body>
 </html>

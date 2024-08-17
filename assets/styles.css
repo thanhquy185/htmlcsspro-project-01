@@ -51,19 +51,26 @@ chiều rộng nhỏ nhất vẫn là 98px*/
 }
 
 /* Header */
-.header {
-  /* Tránh chỉ định kích thước cứng  */
-  height: 100vh;
+.fixed-header {
+  position: sticky;
+  top: -26px;
   background-color: #e6f0ff;
+  padding-top: 26px;
+}
+.hero-wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e6f0ff;
+  height: calc(100vh - 90px);
 }
 .navbar {
   display: flex;
   align-items: center;
-  height: 40px;
-  /* background-color: red; */
   /* margin-top: 38px; Xảy ra hiện tượng margin-collapse */
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 12px 0px;
 }
 .navbar .items {
   display: flex;
@@ -76,7 +83,6 @@ chiều rộng nhỏ nhất vẫn là 98px*/
 .navbar .items a {
   color: #4f5361;
   /* background-color: green; */
-  height: 21px;
   font-size: 1.4rem;
   font-weight: 500;
   padding: 8px 14px;
@@ -97,8 +103,7 @@ chiều rộng nhỏ nhất vẫn là 98px*/
 
 /* <===== Hero =====> */
 .hero {
-  /* background: green; */
-  margin-top: 150px;
+  margin-top: 40px;
 }
 .hero .info {
   width: 51%;
