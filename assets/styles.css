@@ -336,7 +336,7 @@ vẫn có chiều rộng nhỏ nhất vẫn là 170px*/
   /*Đảm bảo vẫn ngắt dòng dù nội dung không chứa khoảng trắng*/
   word-break: break-all;
 }
-.featured.items .body-item .icons {
+.featured .items .body-item .icons {
   margin-top: 20px;
 }
 .featured .items .body-item .image-icon:not(:nth-of-type(1)) {
